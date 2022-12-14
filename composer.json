@@ -4,7 +4,7 @@
     "keywords": ["Binance","cryptocurrency","WebSocket"],
     "license": "MIT",
     "repositories": [ {
-            "type": "github",
+            "type": "vcs",
             "url": "https://github.com/Refszult/php-binance-api"
     }],
     "require": {

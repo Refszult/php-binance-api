@@ -4,9 +4,20 @@
     "keywords": ["Binance","cryptocurrency","WebSocket"],
     "license": "MIT",
     "repositories": [ {
-            "type": "vcs",
-            "url": "https://github.com/Refszult/php-binance-api"
-    }],
+            "type": "package",
+            "package": {
+                "name": "refszult/php-binance-api",
+                "version": "dev-fixies",
+                "source": {
+                    "url": "https://github.com/Refszult/php-binance-api",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "classmap": [""]
+                }
+            }
+        }],
     "require": {
         "php": ">=7.0",
         "ext-curl": "*",
